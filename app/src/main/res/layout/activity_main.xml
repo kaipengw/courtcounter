@@ -38,18 +38,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+3 points"
+            android:onClick="add3Points"
             />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="+2 points"
+            android:onClick="add2Points"
             />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Free Throw"
+            android:onClick="freeThrow"
             />
 
         
